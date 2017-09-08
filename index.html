@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Shane's Amazing Website</title>
+        <style>
+            body {
+                background: #e80b5c;
+                color: red;
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: orange;
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: #ffff;
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: red;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: red;
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <header>Shane's Amazing Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://vignette.wikia.nocookie.net/dragonball/images/0/0c/Fully1.jpg/revision/latest/scale-to-width-down/180?cb=20160828022214"  >
+                </div>
+                
+                <div class="content">
+                    <header>
+                        Shane
+                    </header>
+                        <p>Student at SciHigh </p>
+                        <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Gaming</li>
+                            <li>Track</li>
+                            <li>Basketball</li>
+                        </ul>
+                    </section>
+                    
+                    
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
